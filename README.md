@@ -2,8 +2,9 @@
 
 ---
 
-Tech:
+### Tech:
 
 - Svelte
 - Axios
 - Chart.js
+- Tailwind CSS
