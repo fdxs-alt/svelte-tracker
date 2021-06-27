@@ -7,7 +7,7 @@ export const getChartData = async () => {
     const { data } = await axios.get(DAILY_URL);
 
     const chartData = data
-      .slice(200)
+      .slice(300)
       .map(({ reportDate, totalConfirmed, deaths }) => ({
         confirmed: totalConfirmed,
         reportDate,

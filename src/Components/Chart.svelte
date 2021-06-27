@@ -40,8 +40,12 @@
   });
 </script>
 
-<div class="md:container flex flex-col items-center self-center mt-4 p-5">
-  <h2 class="text-2xl underline mb-5">Chart of global cases</h2>
+<div
+  class="container flex flex-col items-center self-center mt-4 p-16 max-w-screen-lg"
+>
+  <h2 class="text-4xl underline mb-10 font-bold text-center">
+    Chart of global cases
+  </h2>
   <canvas bind:this={chartCanvas} class="w-full" />
   {#if fetchError}
     <h2 class="text-2xl underline mb-5">
